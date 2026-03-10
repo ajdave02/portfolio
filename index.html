@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<video autoplay muted loop playsinline id="background_video">
+   <source src="videos/background-video .mp4" type="video/mp4">
+</video>
+ <nav>
+        <div>Portfolio</div>
+        <ul class="nav-links">
+            <li><a href="index.html">Contact me</a></li>
+        </ul>
+    </nav>
+    <div class="grid-container">
+        <div class="box" id="box-1" style=" grid-area: box-1 ">
+            David Ajala Davis
+        </div>
+        <div class="box" id="box-2" style=" grid-area: box-2 ">Software Developer & AI enthusiast</div>
+        <div class="box" id="box-3"style=" grid-area: box-3 ">
+            <a href="https://github.com/ajdave02">
+                <img src="icons/githubicon.png" width="auto" height="100px">
+            </a>
+            
+            <a href="mailto:ajaladavis1@gmail.com">
+                <img src="icons/emailicon4.png" width="auto" height="100px"/>
+            </a>
+            
+                <a href="https://linkedin.com/signup">
+                 <img src="icons/linkedinicon.png" width="auto" height="100px " />
+            </a>
+
+        </div>
+        <div class="box" id="box-4" style=" grid-area: box-4">
+            <button onclick="window.location.href='projects.html'"  class="button" type="button">
+    View my Project
+</button>
+        </div>
+    </div>
+       <div class="project-container">
+        <div class="project" style=" grid-area: project-1 ">
+        Password Manager
+        <p class="Descrip">A python application that securely stores user passwords.</p>
+        <p> Language used: Python</p>
+        <a href="https://github.com/ajdave02">Github</a>
+        </div>
+        <div class="project" style=" grid-area: project-2 ">
+            Number Guessing Game
+            <p class="Descrip">A terminal-based game where players guess a random number.</p>
+            <p> Language used: Python</p>
+              <a href="https://github.com/ajdave02">Github</a>
+        </div>
+        <div class="project" style=" grid-area: project-3 ">Project 3</div>
+
+    </div>
+</body>
+</html>
