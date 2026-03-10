@@ -160,3 +160,51 @@ font-size: 2em;
 .project-container .project .Descrip {
     font-family: Navbar ;
 }
+
+.Descrip {
+    font-family: Navbar;
+}
+
+
+@media (max-width: 400px) {
+    html {
+        font-size: 50%;
+    }
+    .project-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "project-1"
+        "project-2"
+        "project-3";
+        gap: 20px;
+        height: 40px;
+    }
+    .grid-container {
+        width: 50%;
+        gap:5px;
+    }
+    
+} 
+
+@media (max-width: 768px) {
+    #box-1{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    #box-2 {
+        font-size: 20px;
+        text-align: center;
+    }
+    #box-3 img {
+       height: 50px;
+    }
+
+    video #background_video {
+        display: none;
+    }
+
+    body {
+        background-image: url(imgs/mobile-image-background.jpeg);
+    }
+}
