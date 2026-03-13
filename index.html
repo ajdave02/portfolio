@@ -1,70 +1,94 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<video autoplay muted loop playsinline id="background_video">
-   <source src="videos/background-video.mp4" type="video/mp4">
-</video>
- <nav>
-        <div>Portfolio</div>
-        <ul class="nav-links">
-            <li><a href="https://wa.me/447436714213">Contact me</a></li>
-        </ul>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="imgs/icon-image.png" />
+  </head>
+  <body>
+    <video autoplay muted loop playsinline id="background_video">
+      <source src="videos/background-video.mp4" type="video/mp4" />
+    </video>
+    <nav>
+      <div>AD</div>
+      <ul class="nav-links">
+        <li><a href="docs/cv.pdf">CV</a></li>
+      </ul>
     </nav>
     <div class="grid-container">
-        <div class="box" id="box-1" style=" grid-area: box-1 ">
-            David Ajala Davis
-        </div>
-        <div class="box" id="box-2" style=" grid-area: box-2 ">Software Developer & AI enthusiast</div>
-        <div class="box" id="box-3"style=" grid-area: box-3 ">
-            <a href="https://github.com/ajdave02">
-                <img src="icons/githubicon.png" width="auto" height="100px">
-            </a>
-            
-            <a href="mailto:ajaladavis1@gmail.com">
-                <img src="icons/emailicon.png" width="auto" height="100px"/>
-            </a>
-            
-                <a href="https://linkedin.com/signup">
-                 <img src="icons/linkedinicon.png" width="auto" height="100px " />
-            </a>
-
-        </div>
-        <div class="box" id="box-4" style=" grid-area: box-4">
-            <a href="docs/cv.pdf">
- <button  class="button" type="button">
-    View my cv 
-</button>
-            </a>
-           
-        </div>
+      <div class="box" id="box-1" style="grid-area: box-1">
+        David Ajala Davis
+      </div>
+      <div class="box" id="box-2" style="grid-area: box-2">
+       <h1> Software Developer & AI Enthusiast</h1>
+       <div id="box-9" style="grid-area: box-9"> 
+        <p  id="pd1" class="portfolio-description">A collection of my past and current work. <br> To explore what I'm building now, visit my Github</p>
     </div>
-       <div class="project-container">
-        <div class="project" style=" grid-area: project-1 ">
+       
+      </div>
+
+      <div class="box" id="box-4" style="grid-area: box-4">
+        
+        <a href="docs/cv.pdf">
+          <button class="button" type="button">About Me</button>
+        </a>
+      </div>
+    </div>
+    <div class="project-container">
+      <div class="project" style="grid-area: project-1">
         Password Manager
-        <p class="Descrip">A python application that securely stores user passwords.</p>
-        <p> Language used: Python</p>
+        <p class="Descrip">
+          A python application that securely stores user passwords.
+        </p>
+        <p>Language: Python</p>
         <a href="https://github.com/ajdave02/password-manager">Github</a>
-        </div>
-        <div class="project" style=" grid-area: project-2 ">
-            Number Guessing Game
-            <p class="Descrip">A terminal-based game where players guess a random number.</p>
-            <p> Language used: Python</p>
-              <a href="https://github.com/ajdave02/number-guessing-game">Github</a>
-        </div>
+      </div>
+      <div class="project" style="grid-area: project-2">
+        Number Guessing Game
+        <p class="Descrip">
+          A terminal-based game where players guess a random number.
+        </p>
+        <p>Language: Python</p>
+        <a href="https://github.com/ajdave02/number-guessing-game">Github</a>
+      </div>
 
-        <div class="project" style=" grid-area: project-3 ">
-            Personal Portfolio
-            <p class="Descrip">A minimalist developer portfolio showcasing my projects.</p>
-            <p>Language used : Html & Css</p>
-             <a href="index.html">Github</a>
-        </div>
-
+      <div class="project" style="grid-area: project-3">
+        Personal Portfolio
+        <p class="Descrip">
+          A minimalist developer portfolio showcasing my projects.
+        </p>
+        <p>Language: Html & Css</p>
+        <a href="index.html">Github</a>
+      </div>
     </div>
-</body>
+    <div class="contact-me-container">
+        <div class="box" id="contact-me">Contact me</div>
+        <p class="contact-me-description">Check out more about my project through github and feel free to leave your comments. If you wish to contact me, do so by either email or linkedin.</p>
+<div class="box" id="box-3" style="grid-area: box-3">
+      <a href="https://github.com/ajdave02">
+        <img src="icons/githubicon.png" width="auto" height="70px" />
+      </a>
+
+      <a href="mailto:ajaladavis1@gmail.com">
+        <img src="icons/emailicon.png" width="auto" height="70px" />
+      </a>
+
+      <a href="https://linkedin.com/signup">
+        <img src="icons/linkedinicon.png" width="auto" height="70px" />
+      </a>
+    </div>
+    </div>
+    
+    <div class="footer-container">
+      <img
+        src="imgs/apple-logo.png"
+        height="20px"
+        width="20px"
+        alt="apple logo since 2000."
+      />
+      <p class="footer-description">inspired by apple</p>
+    </div>
+  </body>
 </html>
